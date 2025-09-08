@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* Smooth transitions for hover effects */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Body background gradient */
+body {
+  background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card styling for sections */
+section, div.bg-white {
+  border-radius: 1rem;        /* rounded-xl */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Headings with gradient text */
+h1, h2 {
+  background: linear-gradient(90deg, #4f46e5, #9333ea);
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+/* Buttons glow on hover */
+button {
+  transform: scale(1);
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Lists styled nicely */
+ul {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+li {
+  padding: 0.4rem 0.6rem;
+  margin-bottom: 0.4rem;
+  background: #f1f5f9; /* slate-100 */
+  border-left: 4px solid #4f46e5; /* indigo-600 */
+  border-radius: 0.4rem;
+}
+
+/* Inputs focus effect */
+input:focus {
+  outline: none;
+  border-color: #9333ea; /* purple-600 */
+  box-shadow: 0 0 0 2px rgba(147, 51, 234, 0.3);
+}
